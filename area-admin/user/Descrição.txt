@@ -1,0 +1,52 @@
+index: Exibição de Dados
+
+Process: fazer os processamentos da tela salvar as validar as informação
+
+Register:  formulario para fazer a Inserção e Atualização dos dados.
+
+
+
+Sobre esses arquivos
+
+1 - Monstrar a Estrutura pro projeto arquivo REgister
+
+---------------------------------------------------------------------------------
+2 - falar dos arquivo importados
+
+includes e scripts
+
+***lembrando que a importação do jquery tem que ser antes do bootstrap
+
+---------------------------------------------------------------------------------
+3 - falar do formulário 
+enctype="multipart/form-data" - carregar o arquivo para o script php
+
+---------------------------------------------------------------------------------
+4 - Validações do bootstrap
+
+class="needs-validation" - classe CSS que é usada para indicar que um formulário precisa ser validado
+
+novalidate -  é adicionado para desativar a validação automática do navegador.
+
+required
+
+<div class="invalid-feedback">
+  Nome Inválido
+</div>
+
+ arquivo js de validação do boostrap
+
+---------------------------------------------------------------------------------
+
+4 - Máscara
+Biblioteca : jquery.mask
+usar essas propriedade no input
+data-mask="000.000.000-00"  data-mask-selectonfocus="true"
+
+link de estudos https://igorescobar.github.io/jQuery-Mask-Plugin/
+
+---------------------------------------------------------------------------------
+
+5 - Mostrar Como subir a imagem no campo de img
+mostrar arquivo js
+---------------------------------------------------------------------------------
